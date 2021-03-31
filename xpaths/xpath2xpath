@@ -1,3 +1,0 @@
-(: Query to find all the start location places made in Edinburgh :)
-//company/obj/v_details/location_hire/start[.="Edinburgh"] 
-
