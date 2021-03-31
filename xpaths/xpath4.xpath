@@ -1,0 +1,3 @@
+(: this returns all the prices that are below a set amount :)
+//company/obj/hire_price/price[@amount < "80.00"]
+

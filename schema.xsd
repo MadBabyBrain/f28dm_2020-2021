@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="phoneNumber">
+    <xs:restriction base="xs:string">
+        <xs:length value="11"/>
+        <xs:pattern value="[0-9]{11}"/>
+    </xs:restriction>
+</xs:simpleType>
+<!-- <xs:simpleType name="currency">
+    <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="2"/>
+        <xs:minInclusive value="0"/>
+    </xs:restriction>
+</xs:simpleType> -->
+    <xs:element name="company">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="obj">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="comp_name" type="xs:string" minOccurs="1"/>
+                            <xs:element name="v_details">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="gearbox" minOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="manual|automatic"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="date">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="start" type="xs:date" minOccurs="1"/>
+                                                    <xs:element name="end" type="xs:date" minOccurs="1"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="location_hire">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="start" type="xs:string" minOccurs="1"/>
+                                                    <xs:element name="end" type="xs:string" minOccurs="1"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="hire_cat">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                <xs:pattern value="small|medium|family|MPV|sports|luxury|minivan"/>
+                                                </xs:restriction>   
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="veh_id" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="cust_details">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="driver_license">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="issued_date" type="xs:date" minOccurs="1"/>
+                                                    <xs:element name="expr_date" type="xs:date" minOccurs="1"/>
+                                                    <xs:element name="issued_by" type="xs:string" minOccurs="1"/>
+                                                    <xs:element name="ni_driver_num" minOccurs="1">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:pattern value="[A-Z0-9]{8}"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="name">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="first" type="xs:string" minOccurs="1"/>
+                                                    <xs:element name="middle" type="xs:string"/>
+                                                    <xs:element name="last" type="xs:string" minOccurs="1"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="dob" type="xs:date" minOccurs="1"/>
+                                        <xs:element name="contact_number">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="home" type="phoneNumber"/>
+                                                    <xs:element name="office" type="phoneNumber"/>
+                                                    <xs:element name="mobile" type="phoneNumber"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="email_address" minOccurs="1">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[^@]+@[^\.]+\..+"/>
+                                                </xs:restriction>
+                                            </xs:simpleType> 
+                                        </xs:element>
+                                        <xs:element name="address">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="street" type="xs:string"/>
+                                                    <xs:element name="city" type="xs:string"/>
+                                                    <xs:element name="country" type="xs:string"/>
+                                                    <xs:element name="postcode" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="cus_id" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="hire_price">
+                                <xs:complexType>
+                                    <xs:sequence minOccurs="7" maxOccurs="7">
+                                        <xs:element name="price">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="amount" type="xs:string"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="ord_id" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

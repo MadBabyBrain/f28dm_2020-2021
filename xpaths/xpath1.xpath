@@ -1,0 +1,5 @@
+(: Query to find all cars hired for family use under the name of John :)
+//company/obj/v_details/hire_cat[.="family"] | //company/obj/cust_details/name/first[.="john"]
+
+
+

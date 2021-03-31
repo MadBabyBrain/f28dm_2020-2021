@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <obj ord_id="0001">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="001">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-01-01</start>
+                <end>2020-01-05</end>
+            </date>
+            <location_hire>
+                <start>Edinburgh</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>medium</hire_cat>
+        </v_details>
+        <cust_details cus_id="001">
+            <driver_license>
+                <issued_date>2013-01-01</issued_date>
+                <expr_date>2023-01-01</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA123456</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>John</first>
+                <middle>Jonathan</middle>
+                <last>Bulaney</last>
+            </name>
+            <dob>1985-03-02</dob>
+            <contact_number>
+                <home>07207234345</home>
+                <office>07207234345</office>
+                <mobile>07400388744</mobile>
+            </contact_number>
+            <email_address>JjBulaney@gmail.com</email_address>
+            <address>
+                <street>east</street>
+                <city>London</city>
+                <country>United Kingdom</country>
+                <postcode>PO16 7GZ</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="70.00">Monday</price>
+            <price amount="70.00">Tusday</price>
+            <price amount="70.00">Wednesday</price>
+            <price amount="70.00">Thursday</price>
+            <price amount="70.00">Friday</price>
+            <price amount="75.00">Saturday</price>
+            <price amount="75.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0002">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="002">
+            <gearbox>automatic</gearbox>
+            <date>
+               <start>2020-03-01</start>
+               <end>2020-03-10</end> 
+            </date>
+            <location_hire>
+                <start>Glasgow</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>family</hire_cat>
+        </v_details>
+        <cust_details cus_id="002">
+            <driver_license>
+                <issued_date>2019-09-07</issued_date>
+                <expr_date>2029-09-07</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA341378</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Benny</first>
+                <middle>Albert</middle>
+                <last>Goodman</last>
+            </name>
+            <dob>1979-02-03</dob>
+            <contact_number>
+                <home>02267821248</home>
+                <office>01106349451</office>
+                <mobile>07422104924</mobile>
+            </contact_number> 
+            <email_address>bengoodman@yahoo.com</email_address>
+            <address>
+                <street>18 York Street</street>
+                <city>Cardiff</city>
+                <country>United Kingdom</country>
+                <postcode>ET2 9BF</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="80.00">Monday</price>
+            <price amount="80.00">Tusday</price>
+            <price amount="80.00">Wednesday</price>
+            <price amount="80.00">Thursday</price>
+            <price amount="80.00">Friday</price>
+            <price amount="85.00">Saturday</price>
+            <price amount="85.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0003">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="003">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-02-21</start>
+                <end>2020-02-23</end>
+            </date>
+            <location_hire>
+                <start>Edinburgh</start>
+                <end>Glasgow</end>
+            </location_hire>
+            <hire_cat>small</hire_cat>
+        </v_details>
+        <cust_details cus_id="003">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="60.00">Monday</price>
+            <price amount="60.00">Tusday</price>
+            <price amount="60.00">Wednesday</price>
+            <price amount="60.00">Thursday</price>
+            <price amount="60.00">Friday</price>
+            <price amount="70.00">Saturday</price>
+            <price amount="70.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0004">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="004">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-03-21</start>
+                <end>2020-03-27</end>
+            </date>
+            <location_hire>
+                <start>Glasgow</start>
+                <end>Glasgow</end>
+            </location_hire>
+            <hire_cat>luxury</hire_cat>
+        </v_details>
+        <cust_details cus_id="004">
+            <driver_license>
+                <issued_date>2019-06-16</issued_date>
+                <expr_date>2027-06-16</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA722983</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Jimmy</first>
+                <middle>Neutron</middle>
+                <last>Earman</last>
+            </name> 
+            <dob>2000-01-18</dob>
+            <contact_number>
+                <home>01562143240</home>
+                <office>02312345211</office>
+                <mobile>01235127901</mobile>
+            </contact_number>
+            <email_address>Jmnearman@hotmail.com</email_address>
+            <address>
+                <street>23 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 8BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="150.00">Monday</price>
+            <price amount="150.00">Tusday</price>
+            <price amount="150.00">Wednesday</price>
+            <price amount="150.00">Thursday</price>
+            <price amount="150.00">Friday</price>
+            <price amount="175.00">Saturday</price>
+            <price amount="175.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0005">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="005">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-08-14</start>
+                <end>2020-08-17</end>
+            </date>
+            <location_hire>
+                <start>Bath</start>
+                <end>Warwick</end>
+            </location_hire>
+            <hire_cat>sports</hire_cat>
+        </v_details>
+        <cust_details cus_id="005">
+            <driver_license>
+                <issued_date>2015-06-11</issued_date>
+                <expr_date>2025-06-11</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA422983</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Winston</first>
+                <middle>Church</middle>
+                <last>Hill</last>
+            </name> 
+            <dob>1987-02-09</dob>
+            <contact_number>
+                <home>01223785242</home>
+                <office>02312325290</office>
+                <mobile>01345752809</mobile>
+            </contact_number>
+            <email_address>winstonCH@hotmail.com</email_address>
+            <address>
+                <street>13 Westwoor Street</street>
+                <city>Bath</city>
+                <country>United Kingdom</country>
+                <postcode>BH19 7YX</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="100.00">Monday</price>
+            <price amount="100.00">Tusday</price>
+            <price amount="100.00">Wednesday</price>
+            <price amount="100.00">Thursday</price>
+            <price amount="100.00">Friday</price>
+            <price amount="120.00">Saturday</price>
+            <price amount="120.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0006">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="006">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2013-05-24</start>
+                <end>2013-06-02</end>
+            </date>
+            <location_hire>
+                <start>Cardiff</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>MPV</hire_cat>
+        </v_details>
+        <cust_details cus_id="006">
+            <driver_license>
+                <issued_date>2012-04-01</issued_date>
+                <expr_date>2022-04-01</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA221456</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>James</first>
+                <middle>Ben</middle>
+                <last>Davidson</last>
+            </name>
+            <dob>1990-03-02</dob>
+            <contact_number>
+                <home>01154960731</home>
+                <office>01154960731</office>
+                <mobile>07700900185</mobile>
+            </contact_number>
+            <email_address>jdavidson123@gmail.com</email_address>
+            <address>
+                <street>West Street</street>
+                <city>Cornwall</city>
+                <country>United Kingdom</country>
+                <postcode>AB16 8GZ</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="90.00">Monday</price>
+            <price amount="90.00">Tusday</price>
+            <price amount="90.00">Wednesday</price>
+            <price amount="90.00">Thursday</price>
+            <price amount="90.00">Friday</price>
+            <price amount="95.00">Saturday</price>
+            <price amount="95.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0007">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="007">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2013-05-24</start>
+                <end>2013-06-02</end>
+            </date>
+            <location_hire>
+                <start>London</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>minivan</hire_cat>
+        </v_details>
+        <cust_details cus_id="007">
+            <driver_license>
+                <issued_date>2019-09-07</issued_date>
+                <expr_date>2029-09-07</expr_date>
+                <issued_by>DVLA</issued_by>
+                <ni_driver_num>WE757606</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Chad</first>
+                <middle>Mountain</middle>
+                <last>Alanus</last>
+            </name>
+            <dob>1999-08-13</dob>
+            <contact_number>
+                <home>07700900164</home>
+                <office>01134960585</office>
+                <mobile>08081570316</mobile>
+            </contact_number> 
+            <email_address>firingmahlazors@myspace.com</email_address>
+            <address>
+                <street>31 Lamphey Road</street>
+                <city>Thelwall</city>
+                <country>United Kingdom</country>
+                <postcode>WA4 2NY</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="120.00">Monday</price>
+            <price amount="120.00">Tusday</price>
+            <price amount="120.00">Wednesday</price>
+            <price amount="120.00">Thursday</price>
+            <price amount="120.00">Friday</price>
+            <price amount="130.00">Saturday</price>
+            <price amount="130.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0008">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="008">
+            <gearbox>manual</gearbox>
+            <date>2020-04-09</date>
+            <location_hire>
+                <start>Belfast</start>
+                <end>Bangor</end>
+            </location_hire>
+            <hire_cat>luxury</hire_cat>
+        </v_details>
+        <cust_details cus_id="008">
+            <driver_license>
+                <issued_date>2018-11-09</issued_date>
+                <expr_date>2028-11-09</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA963225</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Ralph</first>
+                <middle>Hans</middle>
+                <last>Fritz</last>
+            </name> 
+            <dob>2001-09-01</dob>
+            <contact_number>
+                <home>01252179963</home>
+                <office>02521773220</office>
+                <mobile>01022901523</mobile>
+            </contact_number>
+            <email_address>Fritzralph123@gmail.com</email_address>
+            <address>
+                <street>82 Newtownards road</street>
+                <city>Belfast</city>
+                <country>United Kingdom</country>
+                <postcode>BT4 6AN</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="150.00">Monday</price>
+            <price amount="150.00">Tusday</price>
+            <price amount="150.00">Wednesday</price>
+            <price amount="150.00">Thursday</price>
+            <price amount="150.00">Friday</price>
+            <price amount="175.00">Saturday</price>
+            <price amount="175.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0009">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="009">
+            <gearbox>manual</gearbox>
+            <date>2019-06-03</date>
+            <location_hire>
+                <start>Aberdeen</start>
+                <end>Aberdeen</end>
+            </location_hire>
+            <hire_cat>luxury</hire_cat>
+        </v_details>
+        <cust_details cus_id="009">
+            <driver_license>
+                <issued_date>2015-02-08</issued_date>
+                <expr_date>2025-02-08</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA927134</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Monika</first>
+                <middle>Natalia</middle>
+                <last>Stawarz</last>
+            </name> 
+            <dob>1996-12-26</dob>
+            <contact_number>
+                <home>01242177891</home>
+                <office>02246237180</office>
+                <mobile>01067682911</mobile>
+            </contact_number>
+            <email_address>monikasta@hotmail.com</email_address>
+            <address>
+                <street>12 old road</street>
+                <city>Aberdeen</city>
+                <country>United Kingdom</country>
+                <postcode>EH19 5HB</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="150.00">Monday</price>
+            <price amount="150.00">Tusday</price>
+            <price amount="150.00">Wednesday</price>
+            <price amount="150.00">Thursday</price>
+            <price amount="150.00">Friday</price>
+            <price amount="175.00">Saturday</price>
+            <price amount="175.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="000a">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="010">
+            <gearbox>automatic</gearbox>
+            <date>2019-12-26</date>
+            <location_hire>
+                <start>Dublin</start>
+                <end>Wroclaw</end>
+            </location_hire>
+            <hire_cat>family</hire_cat>
+        </v_details>
+        <cust_details cus_id="005">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="80.00">Monday</price>
+            <price amount="80.00">Tusday</price>
+            <price amount="80.00">Wednesday</price>
+            <price amount="80.00">Thursday</price>
+            <price amount="80.00">Friday</price>
+            <price amount="85.00">Saturday</price>
+            <price amount="85.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="000b">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="001">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-02-02</start>
+                <end>2020-02-14</end>
+            </date>
+            <location_hire>
+                <start>Edinburgh</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>medium</hire_cat>
+        </v_details>
+        <cust_details cus_id="001">
+            <driver_license>
+                <issued_date>2013-01-01</issued_date>
+                <expr_date>2023-01-01</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA123456</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>John</first>
+                <middle>Jonathan</middle>
+                <last>Bulaney</last>
+            </name>
+            <dob>1985-03-02</dob>
+            <contact_number>
+                <home>07207234345</home>
+                <office>07207234345</office>
+                <mobile>07400388744</mobile>
+            </contact_number>
+            <email_address>JjBulaney@gmail.com</email_address>
+            <address>
+                <street>east</street>
+                <city>London</city>
+                <country>United Kingdom</country>
+                <postcode>PO16 7GZ</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="70.00">Monday</price>
+            <price amount="70.00">Tusday</price>
+            <price amount="70.00">Wednesday</price>
+            <price amount="70.00">Thursday</price>
+            <price amount="70.00">Friday</price>
+            <price amount="75.00">Saturday</price>
+            <price amount="75.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="000c">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="002">
+            <gearbox>automatic</gearbox>
+            <date>
+               <start>2021-02-24</start>
+               <end>2021-03-04</end> 
+            </date>
+            <location_hire>
+                <start>Glasgow</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>family</hire_cat>
+        </v_details>
+        <cust_details cus_id="002">
+            <driver_license>
+                <issued_date>2019-09-07</issued_date>
+                <expr_date>2029-09-07</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA341378</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Benny</first>
+                <middle>Albert</middle>
+                <last>Goodman</last>
+            </name>
+            <dob>1979-02-03</dob>
+            <contact_number>
+                <home>02267821248</home>
+                <office>01106349451</office>
+                <mobile>07422104924</mobile>
+            </contact_number> 
+            <email_address>bengoodman@yahoo.com</email_address>
+            <address>
+                <street>18 York Street</street>
+                <city>Cardiff</city>
+                <country>United Kingdom</country>
+                <postcode>ET2 9BF</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="80.00">Monday</price>
+            <price amount="80.00">Tusday</price>
+            <price amount="80.00">Wednesday</price>
+            <price amount="80.00">Thursday</price>
+            <price amount="80.00">Friday</price>
+            <price amount="85.00">Saturday</price>
+            <price amount="85.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="000d">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="003">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-02-21</start>
+                <end>2020-02-23</end>
+            </date>
+            <location_hire>
+                <start>Edinburgh</start>
+                <end>Glasgow</end>
+            </location_hire>
+            <hire_cat>small</hire_cat>
+        </v_details>
+        <cust_details cus_id="003">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="60.00">Monday</price>
+            <price amount="60.00">Tusday</price>
+            <price amount="60.00">Wednesday</price>
+            <price amount="60.00">Thursday</price>
+            <price amount="60.00">Friday</price>
+            <price amount="70.00">Saturday</price>
+            <price amount="70.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="000e">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="004">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-03-21</start>
+                <end>2020-03-27</end>
+            </date>
+            <location_hire>
+                <start>Glasgow</start>
+                <end>Glasgow</end>
+            </location_hire>
+            <hire_cat>luxury</hire_cat>
+        </v_details>
+        <cust_details cus_id="004">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="150.00">Monday</price>
+            <price amount="150.00">Tusday</price>
+            <price amount="150.00">Wednesday</price>
+            <price amount="150.00">Thursday</price>
+            <price amount="150.00">Friday</price>
+            <price amount="175.00">Saturday</price>
+            <price amount="175.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="000f">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="005">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2020-08-14</start>
+                <end>2020-08-17</end>
+            </date>
+            <location_hire>
+                <start>Bath</start>
+                <end>Warwick</end>
+            </location_hire>
+            <hire_cat>sports</hire_cat>
+        </v_details>
+        <cust_details cus_id="005">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="100.00">Monday</price>
+            <price amount="100.00">Tusday</price>
+            <price amount="100.00">Wednesday</price>
+            <price amount="100.00">Thursday</price>
+            <price amount="100.00">Friday</price>
+            <price amount="120.00">Saturday</price>
+            <price amount="120.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0010">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="006">
+            <gearbox>manual</gearbox>
+            <date>
+                <start>2013-05-24</start>
+                <end>2013-06-02</end>
+            </date>
+            <location_hire>
+                <start>Cardiff</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>MPV</hire_cat>
+        </v_details>
+        <cust_details cus_id="001">
+            <driver_license>
+                <issued_date>2013-01-01</issued_date>
+                <expr_date>2023-01-01</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA123456</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>John</first>
+                <middle>Jonathan</middle>
+                <last>Bulaney</last>
+            </name>
+            <dob>1985-03-02</dob>
+            <contact_number>
+                <home>07207234345</home>
+                <office>07207234345</office>
+                <mobile>07400388744</mobile>
+            </contact_number>
+            <email_address>JjBulaney@gmail.com</email_address>
+            <address>
+                <street>east</street>
+                <city>London</city>
+                <country>United Kingdom</country>
+                <postcode>PO16 7GZ</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="90.00">Monday</price>
+            <price amount="90.00">Tusday</price>
+            <price amount="90.00">Wednesday</price>
+            <price amount="90.00">Thursday</price>
+            <price amount="90.00">Friday</price>
+            <price amount="95.00">Saturday</price>
+            <price amount="95.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0011">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="007">
+            <gearbox>manual</gearbox>
+            <date>2020-07-07</date>
+            <location_hire>
+                <start>London</start>
+                <end>Edinburgh</end>
+            </location_hire>
+            <hire_cat>minivan</hire_cat>
+        </v_details>
+        <cust_details cus_id="002">
+            <driver_license>
+                <issued_date>2019-09-07</issued_date>
+                <expr_date>2029-09-07</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA341378</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Benny</first>
+                <middle>Albert</middle>
+                <last>Goodman</last>
+            </name>
+            <dob>1979-02-03</dob>
+            <contact_number>
+                <home>02267821248</home>
+                <office>01106349451</office>
+                <mobile>07422104924</mobile>
+            </contact_number> 
+            <email_address>bengoodman@yahoo.com</email_address>
+            <address>
+                <street>18 York Street</street>
+                <city>Cardiff</city>
+                <country>United Kingdom</country>
+                <postcode>ET2 9BF</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="120.00">Monday</price>
+            <price amount="120.00">Tusday</price>
+            <price amount="120.00">Wednesday</price>
+            <price amount="120.00">Thursday</price>
+            <price amount="120.00">Friday</price>
+            <price amount="130.00">Saturday</price>
+            <price amount="130.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0012">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="008">
+            <gearbox>manual</gearbox>
+            <date>2020-04-09</date>
+            <location_hire>
+                <start>Belfast</start>
+                <end>Bangor</end>
+            </location_hire>
+            <hire_cat>luxury</hire_cat>
+        </v_details>
+        <cust_details cus_id="003">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="150.00">Monday</price>
+            <price amount="150.00">Tusday</price>
+            <price amount="150.00">Wednesday</price>
+            <price amount="150.00">Thursday</price>
+            <price amount="150.00">Friday</price>
+            <price amount="175.00">Saturday</price>
+            <price amount="175.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0013">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="009">
+            <gearbox>manual</gearbox>
+            <date>2019-06-03</date>
+            <location_hire>
+                <start>Aberdeen</start>
+                <end>Aberdeen</end>
+            </location_hire>
+            <hire_cat>luxury</hire_cat>
+        </v_details>
+        <cust_details cus_id="004">
+            <driver_license>
+                <issued_date>2019-06-16</issued_date>
+                <expr_date>2027-06-16</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA722983</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Jimmy</first>
+                <middle>Neutron</middle>
+                <last>Earman</last>
+            </name> 
+            <dob>2000-01-18</dob>
+            <contact_number>
+                <home>01562143240</home>
+                <office>02312345211</office>
+                <mobile>01235127901</mobile>
+            </contact_number>
+            <email_address>Jmnearman@hotmail.com</email_address>
+            <address>
+                <street>23 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 8BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="150.00">Monday</price>
+            <price amount="150.00">Tusday</price>
+            <price amount="150.00">Wednesday</price>
+            <price amount="150.00">Thursday</price>
+            <price amount="150.00">Friday</price>
+            <price amount="175.00">Saturday</price>
+            <price amount="175.00">Sunday</price>
+        </hire_price>
+    </obj>
+    <obj ord_id="0014">
+        <comp_name>Watt Motors</comp_name>
+        <v_details veh_id="010">
+            <gearbox>automatic</gearbox>
+            <date>2019-12-26</date>
+            <location_hire>
+                <start>Dublin</start>
+                <end>Wroclaw</end>
+            </location_hire>
+            <hire_cat>family</hire_cat>
+        </v_details>
+        <cust_details cus_id="005">
+            <driver_license>
+                <issued_date>2017-12-12</issued_date>
+                <expr_date>2027-12-12</expr_date>
+                <issued_by>DOA</issued_by>
+                <ni_driver_num>AA672881</ni_driver_num>
+            </driver_license>
+            <name>
+                <first>Megan</first>
+                <middle>Jane</middle>
+                <last>Austen</last>
+            </name> 
+            <dob>2000-02-09</dob>
+            <contact_number>
+                <home>01563935141</home>
+                <office>02312345211</office>
+                <mobile>01255872911</mobile>
+            </contact_number>
+            <email_address>mjausten@hotmail.com</email_address>
+            <address>
+                <street>26 West Street</street>
+                <city>Edinburgh</city>
+                <country>United Kingdom</country>
+                <postcode>EH18 9BS</postcode>
+            </address>
+        </cust_details>
+        <hire_price>
+            <price amount="60.00">Monday</price>
+            <price amount="60.00">Tusday</price>
+            <price amount="60.00">Wednesday</price>
+            <price amount="60.00">Thursday</price>
+            <price amount="60.00">Friday</price>
+            <price amount="70.00">Saturday</price>
+            <price amount="70.00">Sunday</price>
+        </hire_price>
+    </obj>
+</company>
