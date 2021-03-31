@@ -1,0 +1,2 @@
+(: Query to find all the start location places made in Edinburgh but not end in Edinburgh :)
+//company/obj[./v_details/location_hire/start[.="Edinburgh" and not(../end="Edinburgh")]]/cust_details/@cus_id

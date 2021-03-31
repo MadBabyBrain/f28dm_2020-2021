@@ -1,1 +1,2 @@
-//company/obj/cust_details/email_address
+(: Query to find all the customer ids who are over the age of 21 :)
+//company/obj/cust_details[./dob[number(translate(.,'-','')) < 20000101]]/@cus_id

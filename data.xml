@@ -354,7 +354,10 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="008">
             <gearbox>manual</gearbox>
-            <date>2020-04-09</date>
+            <date>
+                <start>2020-04-09</start>
+                <end>2020-04-15</end>
+            </date>
             <location_hire>
                 <start>Belfast</start>
                 <end>Bangor</end>
@@ -401,7 +404,10 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="009">
             <gearbox>manual</gearbox>
-            <date>2019-06-03</date>
+            <date>
+                <start>2019-06-03</start>
+                <end>2019-06-08</end>
+            </date>
             <location_hire>
                 <start>Aberdeen</start>
                 <end>Aberdeen</end>
@@ -448,7 +454,10 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="010">
             <gearbox>automatic</gearbox>
-            <date>2019-12-26</date>
+            <date>
+                <start>2019-12-26</start>
+                <end>2020-01-08</end>
+            </date>
             <location_hire>
                 <start>Dublin</start>
                 <end>Wroclaw</end>
@@ -457,28 +466,28 @@
         </v_details>
         <cust_details cus_id="005">
             <driver_license>
-                <issued_date>2017-12-12</issued_date>
-                <expr_date>2027-12-12</expr_date>
+                <issued_date>2015-06-11</issued_date>
+                <expr_date>2025-06-11</expr_date>
                 <issued_by>DOA</issued_by>
-                <ni_driver_num>AA672881</ni_driver_num>
+                <ni_driver_num>AA422983</ni_driver_num>
             </driver_license>
             <name>
-                <first>Megan</first>
-                <middle>Jane</middle>
-                <last>Austen</last>
+                <first>Winston</first>
+                <middle>Church</middle>
+                <last>Hill</last>
             </name> 
-            <dob>2000-02-09</dob>
+            <dob>1987-02-09</dob>
             <contact_number>
-                <home>01563935141</home>
-                <office>02312345211</office>
-                <mobile>01255872911</mobile>
+                <home>01223785242</home>
+                <office>02312325290</office>
+                <mobile>01345752809</mobile>
             </contact_number>
-            <email_address>mjausten@hotmail.com</email_address>
+            <email_address>winstonCH@hotmail.com</email_address>
             <address>
-                <street>26 West Street</street>
-                <city>Edinburgh</city>
+                <street>13 Westwoor Street</street>
+                <city>Bath</city>
                 <country>United Kingdom</country>
-                <postcode>EH18 9BS</postcode>
+                <postcode>BH19 7YX</postcode>
             </address>
         </cust_details>
         <hire_price>
@@ -596,8 +605,8 @@
         <v_details veh_id="003">
             <gearbox>manual</gearbox>
             <date>
-                <start>2020-02-21</start>
-                <end>2020-02-23</end>
+                <start>2020-09-18</start>
+                <end>2020-09-23</end>
             </date>
             <location_hire>
                 <start>Edinburgh</start>
@@ -646,8 +655,8 @@
         <v_details veh_id="004">
             <gearbox>manual</gearbox>
             <date>
-                <start>2020-03-21</start>
-                <end>2020-03-27</end>
+                <start>2020-05-05</start>
+                <end>2020-05-16</end>
             </date>
             <location_hire>
                 <start>Glasgow</start>
@@ -657,28 +666,28 @@
         </v_details>
         <cust_details cus_id="004">
             <driver_license>
-                <issued_date>2017-12-12</issued_date>
-                <expr_date>2027-12-12</expr_date>
+                <issued_date>2019-06-16</issued_date>
+                <expr_date>2027-06-16</expr_date>
                 <issued_by>DOA</issued_by>
-                <ni_driver_num>AA672881</ni_driver_num>
+                <ni_driver_num>AA722983</ni_driver_num>
             </driver_license>
             <name>
-                <first>Megan</first>
-                <middle>Jane</middle>
-                <last>Austen</last>
+                <first>Jimmy</first>
+                <middle>Neutron</middle>
+                <last>Earman</last>
             </name> 
-            <dob>2000-02-09</dob>
+            <dob>2000-01-18</dob>
             <contact_number>
-                <home>01563935141</home>
+                <home>01562143240</home>
                 <office>02312345211</office>
-                <mobile>01255872911</mobile>
+                <mobile>01235127901</mobile>
             </contact_number>
-            <email_address>mjausten@hotmail.com</email_address>
+            <email_address>Jmnearman@hotmail.com</email_address>
             <address>
-                <street>26 West Street</street>
+                <street>23 West Street</street>
                 <city>Edinburgh</city>
                 <country>United Kingdom</country>
-                <postcode>EH18 9BS</postcode>
+                <postcode>EH18 8BS</postcode>
             </address>
         </cust_details>
         <hire_price>
@@ -696,8 +705,8 @@
         <v_details veh_id="005">
             <gearbox>manual</gearbox>
             <date>
-                <start>2020-08-14</start>
-                <end>2020-08-17</end>
+                <start>2021-02-14</start>
+                <end>2021-02-23</end>
             </date>
             <location_hire>
                 <start>Bath</start>
@@ -707,28 +716,28 @@
         </v_details>
         <cust_details cus_id="005">
             <driver_license>
-                <issued_date>2017-12-12</issued_date>
-                <expr_date>2027-12-12</expr_date>
+                <issued_date>2015-06-11</issued_date>
+                <expr_date>2025-06-11</expr_date>
                 <issued_by>DOA</issued_by>
-                <ni_driver_num>AA672881</ni_driver_num>
+                <ni_driver_num>AA422983</ni_driver_num>
             </driver_license>
             <name>
-                <first>Megan</first>
-                <middle>Jane</middle>
-                <last>Austen</last>
+                <first>Winston</first>
+                <middle>Church</middle>
+                <last>Hill</last>
             </name> 
-            <dob>2000-02-09</dob>
+            <dob>1987-02-09</dob>
             <contact_number>
-                <home>01563935141</home>
-                <office>02312345211</office>
-                <mobile>01255872911</mobile>
+                <home>01223785242</home>
+                <office>02312325290</office>
+                <mobile>01345752809</mobile>
             </contact_number>
-            <email_address>mjausten@hotmail.com</email_address>
+            <email_address>winstonCH@hotmail.com</email_address>
             <address>
-                <street>26 West Street</street>
-                <city>Edinburgh</city>
+                <street>13 Westwoor Street</street>
+                <city>Bath</city>
                 <country>United Kingdom</country>
-                <postcode>EH18 9BS</postcode>
+                <postcode>BH19 7YX</postcode>
             </address>
         </cust_details>
         <hire_price>
@@ -746,8 +755,8 @@
         <v_details veh_id="006">
             <gearbox>manual</gearbox>
             <date>
-                <start>2013-05-24</start>
-                <end>2013-06-02</end>
+                <start>2013-07-10</start>
+                <end>2013-07-16</end>
             </date>
             <location_hire>
                 <start>Cardiff</start>
@@ -795,7 +804,10 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="007">
             <gearbox>manual</gearbox>
-            <date>2020-07-07</date>
+            <date>
+                <start>2020-04-29</start>
+                <end>2020-05-01</end>
+            </date>
             <location_hire>
                 <start>London</start>
                 <end>Edinburgh</end>
@@ -842,7 +854,10 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="008">
             <gearbox>manual</gearbox>
-            <date>2020-04-09</date>
+            <date>
+                <start>2018-03-21</start>
+                <end>2018-04-01</end>
+            </date>
             <location_hire>
                 <start>Belfast</start>
                 <end>Bangor</end>
@@ -889,14 +904,17 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="009">
             <gearbox>manual</gearbox>
-            <date>2019-06-03</date>
+            <date>
+                <start>2019-07-06</start>
+                <end>2019-07-12</end>
+            </date>
             <location_hire>
                 <start>Aberdeen</start>
                 <end>Aberdeen</end>
             </location_hire>
             <hire_cat>luxury</hire_cat>
         </v_details>
-        <cust_details cus_id="004">
+         <cust_details cus_id="004">
             <driver_license>
                 <issued_date>2019-06-16</issued_date>
                 <expr_date>2027-06-16</expr_date>
@@ -936,7 +954,10 @@
         <comp_name>Watt Motors</comp_name>
         <v_details veh_id="010">
             <gearbox>automatic</gearbox>
-            <date>2019-12-26</date>
+            <date>
+                <start>2021-02-26</start>
+                <end>2021-03-08</end>
+            </date>
             <location_hire>
                 <start>Dublin</start>
                 <end>Wroclaw</end>
@@ -945,28 +966,28 @@
         </v_details>
         <cust_details cus_id="005">
             <driver_license>
-                <issued_date>2017-12-12</issued_date>
-                <expr_date>2027-12-12</expr_date>
+                <issued_date>2015-06-11</issued_date>
+                <expr_date>2025-06-11</expr_date>
                 <issued_by>DOA</issued_by>
-                <ni_driver_num>AA672881</ni_driver_num>
+                <ni_driver_num>AA422983</ni_driver_num>
             </driver_license>
             <name>
-                <first>Megan</first>
-                <middle>Jane</middle>
-                <last>Austen</last>
+                <first>Winston</first>
+                <middle>Church</middle>
+                <last>Hill</last>
             </name> 
-            <dob>2000-02-09</dob>
+            <dob>1987-02-09</dob>
             <contact_number>
-                <home>01563935141</home>
-                <office>02312345211</office>
-                <mobile>01255872911</mobile>
+                <home>01223785242</home>
+                <office>02312325290</office>
+                <mobile>01345752809</mobile>
             </contact_number>
-            <email_address>mjausten@hotmail.com</email_address>
+            <email_address>winstonCH@hotmail.com</email_address>
             <address>
-                <street>26 West Street</street>
-                <city>Edinburgh</city>
+                <street>13 Westwoor Street</street>
+                <city>Bath</city>
                 <country>United Kingdom</country>
-                <postcode>EH18 9BS</postcode>
+                <postcode>BH19 7YX</postcode>
             </address>
         </cust_details>
         <hire_price>

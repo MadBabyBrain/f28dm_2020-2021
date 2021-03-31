@@ -1,1 +1,2 @@
-//company/obj/v_details/hire_cat[.="luxury" or .="sports"]
+(: return all email addresses from orders where the car type is luxury or sports :)
+//company/obj/cust_details/email_address[../../v_details/hire_cat = "luxury" or ../../v_details/hire_cat = "sports"]

@@ -6,12 +6,12 @@
         <xs:pattern value="[0-9]{11}"/>
     </xs:restriction>
 </xs:simpleType>
-<!-- <xs:simpleType name="currency">
+<xs:simpleType name="currency">
     <xs:restriction base="xs:decimal">
         <xs:fractionDigits value="2"/>
         <xs:minInclusive value="0"/>
     </xs:restriction>
-</xs:simpleType> -->
+</xs:simpleType>
     <xs:element name="company">
         <xs:complexType>
             <xs:sequence maxOccurs="unbounded">
